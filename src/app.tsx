@@ -2,7 +2,8 @@ import logo from "./assets/logo-in-orbit.svg";
 import letsStart from "./assets/lets-start-illustration.svg";
 import { Plus } from "lucide-react";
 import { Button } from "./components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "./components/ui/dialog";
+import { Dialog, DialogTrigger } from "./components/ui/dialog";
+import { CreateGoal } from "./components/create-goal";
 
 export function App() {
   return (
@@ -15,14 +16,14 @@ export function App() {
           mesmo?
         </p>
 
-        <DialogTrigger>
+        <DialogTrigger asChild>
           <Button>
             <Plus className="size-4" />
             Cadastrar meta
           </Button>
         </DialogTrigger>
       </div>
-      <DialogContent></DialogContent>
+      <CreateGoal />
     </Dialog>
   );
 }

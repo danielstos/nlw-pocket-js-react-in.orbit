@@ -1,88 +1,125 @@
 Aqui está o README atualizado para o frontend **nlw-pocket-js-react-in.orbit**:
 
+
 ---
 
-# NLW Pocket JS React Frontend - In Orbit
 
-Este repositório contém o frontend da aplicação **NLW Pocket 1.0 - In Orbit**, desenvolvida utilizando React e Tailwind CSS.
+# NLW Pocket JS React Frontend - in.orbit
+
+
+Este repositório contém o frontend da aplicação **NLW Pocket 1.0 - in.orbit**, desenvolvida utilizando React e Tailwind CSS.
+
 
 ## Exemplos Visuais
 
+
+
+
 ### Tela Inicial
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-![Imagem da tela inicial mobile ](src/assets/tela-mobile.png)
-![Imagem da tela inicial desktop](src/assets/tela-inicial-desktop.png)
+    <img src="src/assets/tela-mobile.png" alt="FSW Barber PNG" width="160px"/>
+    <img src="src/assets/tela-inicial-desktop.png" alt="FSW Barber PNG" height="370px"/>
 
-
-</div>
 
 ### Tela de Metas Completadas
-    ![GIF da tela de metas completadas mobile](src/assets/in.orbit-mobile.gif)
-    ![GIF da tela de metas completadas desktop](src/assets/in.orbit-desktop.gif)
+
+
+<img src="src/assets/in.orbit-mobile.gif" width="35%" />
+
+
+<img src="src/assets/in.orbit-desktop.gif" width="100%" />
+   
+</div>
+
+
 
 
 ## Tecnologias Utilizadas
 
-- **React**: [Documentação](https://reactjs.org/docs/getting-started.html)
-- **Tailwind CSS**: [Documentação](https://tailwindcss.com/docs)
-- **Vite**: [Documentação](https://vitejs.dev/guide/)
-- **TypeScript**: [Documentação](https://www.typescriptlang.org/docs/)
-- **TanStack Query**: [Documentação](https://tanstack.com/query/latest/docs/react/overview)
-- **react-hook-form**: [Documentação](https://react-hook-form.com/get-started)
-- **@hookform/resolvers**: [Documentação](https://react-hook-form.com/get-started#SchemaValidation)
-- **Radix UI**: [Documentação](https://www.radix-ui.com/docs/primitives/overview/introduction)
-- **Biome**: [Documentação](https://biomejs.dev/)
-- **Lucide-react**: [Documentação](https://lucide.dev/)
-- **Day.js**: [Documentação](https://day.js.org/)
-- **Zod**: [Documentação](https://zod.dev/)
+
+[![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)](https://reactjs.org/docs/getting-started.html)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/docs)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)](https://vitejs.dev/guide/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)
+[![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=react-query&logoColor=white)](https://tanstack.com/query/latest/docs/react/overview)
+[![react-hook-form](https://img.shields.io/badge/React--Hook--Form-EC5990?style=flat&logo=reacthookform&logoColor=white)](https://react-hook-form.com/get-started)
+[![Radix UI](https://img.shields.io/badge/Radix_UI-111827?style=flat&logoColor=white)](https://www.radix-ui.com/)
+[![Biome](https://img.shields.io/badge/Biome-FFCC00?style=flat&logoColor=black)](https://biomejs.dev/)
+[![Lucide-react](https://img.shields.io/badge/Lucide--react-0C7EFF?style=flat&logo=lucide&logoColor=white)](https://lucide.dev/)
+[![Day.js](https://img.shields.io/badge/Day.js-FF5F5F?style=flat&logo=dayjs&logoColor=white)](https://day.js.org/)
+[![Zod](https://img.shields.io/badge/Zod-E69F66?style=flat&logo=zod&logoColor=white)](https://zod.dev/)
+
+
+
+
+
 
 ## Passos para Configuração
 
+
 ### 1. Clone o repositório:
+
 
 ```bash
 git clone https://github.com/danielstos/nlw-pocket-js-react-in.orbit.git
 ```
 
+
 ### 2. Acesse a pasta do projeto:
+
 
 ```bash
 cd nlw-pocket-js-react-in.orbit
 ```
 
+
 ### 3. Instale as dependências:
+
 
 ```bash
 npm install
 ```
 
+
 ## Inicialização
+
 
 ### Frontend
 
+
 Inicie o servidor de desenvolvimento:
+
 
 ```bash
 npm run dev
 ```
 
+
 A aplicação estará disponível em `http://localhost:5173`.
+
 
 ### Backend
 
+
 O backend da aplicação está disponível neste repositório: **nlw-pocket-js-node-in.orbit**. Certifique-se de rodá-lo para que a aplicação frontend funcione corretamente.
+
 
 Para rodar o backend:
 
+
 1. Clone o repositório backend:
+
 
    ```bash
    git clone https://github.com/danielstos/nlw-pocket-js-node-in.orbit.git
    ```
 
+
 2. Acesse a pasta do backend e siga as instruções no README para configurar e iniciar o servidor.
 
+
 ## Estrutura de Pastas
+
 
 ```bash
 nlw-pocket-js-react-in.orbit/
@@ -130,10 +167,16 @@ nlw-pocket-js-react-in.orbit/
 ├── postcss.config.js                     # Configuração do PostCSS
 ```
 
+
 ## Contribuição
+
 
 Sinta-se à vontade para contribuir com melhorias ou correções. Para isso, faça um fork do repositório, crie uma nova branch e abra um **Pull Request** com as alterações.
 
+
 ---
 
-Agora o README do frontend reflete a estrutura correta das pastas, incluindo a localização dos principais componentes e funções dentro do projeto.
+
+
+
+
